@@ -154,7 +154,7 @@ install_mecab_python(){
     pushd /tmp
     if [[ ! -d "mecab-python-0.996" ]]; then
         # git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
-        git clone git@bitbucket.org:swkeum/mecab-python-0.996.git
+        git clone https://bitbucket.org/swkeum/mecab-python-0.996.git
     fi
     popd
     if [[ "$os" == "Darwin" ]]; then
